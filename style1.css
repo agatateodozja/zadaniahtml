@@ -1,0 +1,22 @@
+body {
+   background: #888; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#all{
+    width: 450px;
+    background: beige;
+    margin: 100px auto;
+}
+
+#screen{
+    height: 50px;
+    line-height: 50px;
+    padding: 5px;
+    font-size: 36px;
+    text-align: right;
+    background: #999C;
+    color: #993499 
+    border: 2px solid #123451
+}
+
