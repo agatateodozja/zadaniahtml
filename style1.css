@@ -5,7 +5,7 @@ body {
 
 #all{
     width: 450px;
-    background: beige;
+    background: rgb(219, 250, 224);
     margin: 100px auto;
 }
 
@@ -15,8 +15,44 @@ body {
     padding: 5px;
     font-size: 36px;
     text-align: right;
-    background: #999C;
-    color: #993499 
-    border: 2px solid #123451
+    background: rgba(110, 74, 194, 0.379);
+    color: #c822c8; 
+    border: 2px solid #450045;
+
 }
 
+#calculator{    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    width:23%;
+    padding: 5px 1%;
+}
+
+label{
+    font-size: 11px;
+    color: brown;
+    text-align: center;
+}
+
+input[type=text], select{
+    width: 90%;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(136, 136, 136, 0.323);
+}
+
+input[type=submit]{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+    color: #dddd;
+    background: #888;
+    border: 1 px solid #dddd;
+}
